@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(3, 68, 33);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: rgb(104, 243, 134);
+  width: 100vw;
+  padding: 2rem 2rem;
+  margin-bottom: 0;
+}
+
+.container {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  border: 10px solid white;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+div.image {
+  height: auto;
+  max-width: 90%;
+  background-color: rgb(104, 243, 134);
+  margin: 0 auto;
+}
+
+.text {
+  border: 5px solid white;
+}
+
+.text p {
+  max-width: 90%;
+  margin: 1rem auto;
+}
+
+@media screen and (min-width: 576px) {
+  div.container {
+    display: flex;
+  }
+
+  div.image {
+    max-width: 49%;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  div.text {
+    max-width: 49%;
+    vertical-align: middle;
+    /* padding-top: 5vh; */
+  }
+
+  footer {
+    background-color: rgb(104, 243, 134);
+    height: 7vh;
+  }
+}
+
+@media all and (min-width: 700px) {
+  body {
+    font-size: 1.1rem;
+  }
+}
+@media all and (min-width: 900px) {
+  body {
+    font-size: 1.3rem;
+  }
+}
+@media all and (min-width: 1000px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
+@media all and (min-width: 1200px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  div.container {
+    display: inline-block;
+    max-width: 32vw;
+    /*  border: 2px solid orchid; */
+  }
+
+  div:first-child {
+    margin-left: 0.7vw;
+  }
+  div.image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid white;
+  }
+  img {
+    width: 30vw;
+  }
+  div.text {
+    max-width: 95%;
+    height: auto;
+    margin: 0 auto;
+    /* border: 2px solid orange; */
+  }
+
+  footer {
+    background-color: rgb(104, 243, 134);
+    height: 15vh;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  body {
+    font-size: 1.3rem;
+  }
+}
+@media all and (min-width: 1800px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
